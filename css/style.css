@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+.fundo{
+    background-color:rgb(15, 120, 120);
+    height: 100vh;
+    width: 100%;
+    color: aliceblue;
+    font-size: 30px;
+}
+.calculadora{
+    
+    background: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    border-radius: 15px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border: 5px;
+}
+.botao, .botao-zero{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(50, 51, 51);
+    color: white;
+    border-radius: 5px ;
+    border: 2px;
+    border-color: white;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao-igual{
+margin: 3px;
+    width: 50px;
+    height: 106px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(50, 51, 51);
+    color: white;
+    border-radius: 5px ;
+    border: 2px;
+    border-color: white;
+}
