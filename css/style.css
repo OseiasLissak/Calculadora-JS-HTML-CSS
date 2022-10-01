@@ -1,16 +1,34 @@
-h1{
-    text-align: center;
-}
-
+html, body {
+    margin: 0;
+    padding: 0;
+} 
 .fundo{
-    background-color:rgb(15, 120, 120);
+    background-color:rgb(110, 171, 171);
     height: 100vh;
     width: 100%;
     color: aliceblue;
     font-size: 30px;
 }
+h1{
+    text-align: center;
+    margin: 0 0px 10px 0px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    margin: 10px auto;
+    text-align: right;
+    font-size: 30px;
+    border-radius: 3px;
+    text-align: right;
+    padding: 5px;
+}
 .calculadora{
-    
     background: black;
     font-size: 20px;
     position: absolute;
@@ -19,11 +37,12 @@ h1{
     transform: translate(-50%,-50%);    
     border-radius: 15px;
     padding: 20px;
+    border: 2px solid rgb(210, 203, 223);
 }
 .container{
     display: flex;
     justify-content: center;
-    border: 5px;
+    border: 5px;   
 }
 .botao, .botao-zero{
     margin: 3px;
@@ -34,15 +53,19 @@ h1{
     background-color: rgb(50, 51, 51);
     color: white;
     border-radius: 5px ;
-    border: 2px;
-    border-color: white;
+    border: 1px solid white;
+    
 }
 .botao:hover{
     background-color: white;
     color: black;
 }
+.botao-zero:hover{
+    background-color: white;
+    color: black;
+}
 .botao-igual{
-margin: 3px;
+    margin: 3px;
     width: 50px;
     height: 106px;
     font-size: 25px;
@@ -50,6 +73,9 @@ margin: 3px;
     background-color: rgb(50, 51, 51);
     color: white;
     border-radius: 5px ;
-    border: 2px;
-    border-color: white;
+    border: 1px solid white;
+}  
+.botao-igual:hover{
+    background-color: white;
+    color: black;
 }
